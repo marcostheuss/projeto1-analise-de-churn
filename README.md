@@ -1,33 +1,28 @@
 # Projeto 1: Análise de Churn - Relacionamento com o Cliente
 
-## 🌐 Dashboard Interativ
+##  Dashboard Interativ
 Criei uma visualização dinâmica para facilitar a identificação dos grupos de risco.
-👉 **[[Clique aqui para ver o Gráfico Interativo](https://marcostheuss.github.io/projeto1-analise-de-churn/)**
+https://marcostheuss.github.io/projeto1-analise-de-churn/**
 
+Nesse projeto, eu quis entender como o atendimento ao cliente influencia na hora de alguém cancelar um serviço. Foquei em olhar quantas vezes a pessoa entrou em contato nos últimos 12 meses para ver se existia um limite antes dela desistir da empresa.
 
+##  O que eu percebi na análise
 
-### 🔎 **Insights Extraídos do Gráfico**
+* **Ponto de equilíbrio**: Notei que quem liga só 1 ou 2 vezes por ano costuma estar satisfeito e continua com o serviço.
+* **Sinal de alerta**: Quando o cliente chega na 3ª ligação, é o momento que ele começa a perder a paciência.
+* **Zona de risco**: Se o cliente precisar ligar 4 vezes ou mais, a chance de ele cancelar é muito alta.
+* **Limite máximo**: Percebi que quase todo mundo que chegou a 6 contatos acabou cancelando, o que mostra que o problema deles provavelmente não foi resolvido.
 
-* **Zona de Estabilidade (0-2 contatos):** Clientes que entram em contato poucas vezes possuem a menor taxa de cancelamento.
-* **Ponto de Atenção (3 contatos):** É o limite da satisfação. A partir daqui, o índice de cancelamento começa a ganhar corpo.
-* **Zona de Risco Crítico (4 ou mais contatos):** Clientes com 4 ou mais contatos apresentam propensão altíssima ao Churn.
-* **Taxa de 100% de Cancelamento:** Clientes com **6 contatos** atingem o ápice da insatisfação.
+##  Ideias para resolver isso
 
+1. **Avisar o time antes**: Minha ideia é criar um alerta quando o cliente ligar pela 3ª vez, para alguém tentar resolver o problema dele de um jeito especial.
+2. **Resolver de primeira**: Tentar entender por que as pessoas estão ligando tanto e treinar a equipe para resolver tudo logo na primeira ligação.
+3. **Agradar o cliente**: Se o sistema ver que alguém está ligando muito, a empresa poderia oferecer um desconto ou um brinde para diminuir a frustração.
 
-### 💡 **Recomendações Estratégicas**
+##  Ferramentas que usei
 
-1.  **Ação Proativa:** Implementar um alerta para o time de retenção assim que um cliente realizar o **3º contato** no ano.
-2.  **Melhoria no Suporte:** Analisar o motivo dos contatos repetidos para resolver a **causa raiz** e evitar que o cliente precise ligar novamente.
-3.  **Fidelização:** Oferecer benefícios ou revisão de taxas para clientes na **"Zona de Risco"** antes que o 4º contato ocorra.
-4.  **Treinamento de Equipe:** Focar em **resolução no primeiro contato (FCR)** para diminuir o atrito do cliente com a marca.
-
----
-
-### 🛠️ **Tecnologias Utilizadas**
-
-* **Python:** Linguagem principal para o processamento e limpeza de dados.
-* **Pandas:** Biblioteca essencial para a manipulação e tratamento da base de dados.
-* **Plotly Express:** Ferramenta utilizada para a criação de gráficos interativos e visuais.
-* **GitHub Pages:** Plataforma de hospedagem para disponibilizar o dashboard em formato **HTML** de forma pública e acessível.
-* **Google Colab:** Ambiente de desenvolvimento em nuvem utilizado para escrever e executar o código.
+* **Python**: Usei para analisar os dados e criar a lógica do projeto.
+* **Pandas**: Foi a ferramenta que me ajudou a limpar a base de dados e deixar tudo organizado.
+* **Plotly Express**: Usei para fazer aquele gráfico bonitão que você consegue interagir.
+* **GitHub Pages**: Onde coloquei o meu projeto para ficar online como um site.
 
