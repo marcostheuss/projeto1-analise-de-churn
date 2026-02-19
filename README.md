@@ -23,6 +23,6 @@ Nesse projeto, eu quis entender como o atendimento ao cliente influencia na hora
 
 * **Python**: Usei para analisar os dados e criar a lógica do projeto.
 * **Pandas**: Foi a ferramenta que me ajudou a limpar a base de dados e deixar tudo organizado.
-* **Plotly Express**: Usei para fazer aquele gráfico bonitão que você consegue interagir.
+* **Plotly Express**: Usei para fazer aquele gráfico que você consegue interagir.
 * **GitHub Pages**: Onde coloquei o meu projeto para ficar online como um site.
 
