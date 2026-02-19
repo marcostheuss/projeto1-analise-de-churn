@@ -1,6 +1,6 @@
 # Projeto 1: Análise de Churn - Relacionamento com o Cliente
 
-##  Dashboard Interativ
+##  Dashboard Interativo
 Criei uma visualização dinâmica para facilitar a identificação dos grupos de risco.
 https://marcostheuss.github.io/projeto1-analise-de-churn/**
 
